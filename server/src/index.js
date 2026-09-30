@@ -74,10 +74,9 @@ const app = express();
 // This allows your specific Vercel frontend to talk to this backend
 app.use(cors({
   origin: [
-    "https://dig-village.vercel.app",
-    "https://dig-village-rushikesh-bambs-projects.vercel.app",
+    "https://smart-village-management-system-five.vercel.app",
     "http://localhost:3000",
-    "http://localhost:5173" // Vite default dev port
+    "http://localhost:5173"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   credentials: true,
